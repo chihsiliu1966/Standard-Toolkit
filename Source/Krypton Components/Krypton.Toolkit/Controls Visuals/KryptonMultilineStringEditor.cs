@@ -17,7 +17,7 @@ namespace Krypton.Toolkit
     /// <summary>
     /// Multiline String Editor Window.
     /// </summary>
-    internal sealed class MultilineStringEditor : KryptonForm //Form
+    public sealed class KryptonMultilineStringEditor : KryptonForm //Form
     {
         #region Instance Members
         private bool _saveChanges = true;
@@ -31,7 +31,7 @@ namespace Krypton.Toolkit
         /// Initializes a new instance of the MultilineStringEditor class.
         /// </summary>
         /// <param name="owner"></param>
-        public MultilineStringEditor(KryptonTextBox owner)
+        public KryptonMultilineStringEditor(KryptonTextBox owner)
         {
             SuspendLayout();
             _textBox = new KryptonTextBox { Dock = DockStyle.Fill, Multiline = true };
