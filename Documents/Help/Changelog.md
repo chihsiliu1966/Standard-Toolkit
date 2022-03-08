@@ -1,6 +1,13 @@
 # <img src="https://github.com/Krypton-Suite/Standard-Toolkit/blob/master/Krypton.png"> Standard Toolkit - ChangeLog
 
 ## 2022-04-04 - Build 2204 - April 2022
+* Resolved [#39](https://github.com/Krypton-Suite/Standard-Toolkit/issues/39), KryptonNumericUpDown loses selection (visually) each time the control is painted
+* Resolved [#399](https://github.com/Krypton-Suite/Standard-Toolkit/issues/399), DataGridView columns can have buttonspecs added, but they are never visible.
+* Implemented [#640](https://github.com/Krypton-Suite/Standard-Toolkit/issues/640), KForm add an option to align the title text.
+* Resolved [#646](https://github.com/Krypton-Suite/Standard-Toolkit/issues/646), When the ButtonSpecs are left aligned the System Menu icon does not react to the click event any more
+* Resolved [#642](https://github.com/Krypton-Suite/Standard-Toolkit/issues/642), Blurred window get left behind when focus is regained
+* Resolved [#634](https://github.com/Krypton-Suite/Standard-Toolkit/issues/634), Opacity no longer works
+* Resolved [#633](https://github.com/Krypton-Suite/Standard-Toolkit/issues/633), Source contains licensing code
 * Resolved [#630](https://github.com/Krypton-Suite/Standard-Toolkit/issues/630), Ribbon accelerator overlay has shadowing
 * Resolved [#611](https://github.com/Krypton-Suite/Standard-Toolkit/issues/611), `KryptonContextMenu`: Cannot add `ComboBoxItem`
 * Implemented [#610](https://github.com/Krypton-Suite/Standard-Toolkit/issues/610), `KryptonContextMenuRadioButton` - no way to assign a method/event through the item editor
@@ -16,6 +23,7 @@
 * Resolved [#70](https://github.com/Krypton-Suite/Standard-Toolkit/issues/70), If the BlurWhenFocusLost is set and the app is underneath another, then it will still have the blur overlay topmost (i.e. on top of the other app which is currently fullscreen!)
 * Resolved [#69](https://github.com/Krypton-Suite/Standard-Toolkit/issues/69), The MessageBox display clears the blur underneath (Due to the code thinking it has lost focus, even when the messageBox is owned)
 * Resolved [#68](https://github.com/Krypton-Suite/Standard-Toolkit/issues/68), When Blurring on Windows 10 with a large screen, the offset of the blur overlay is wrong
+* Resolved [#39](https://github.com/Krypton-Suite/Standard-Toolkit/issues/39), KryptonNumericUpDown loses selection (visually) each time the control is painted
 
 =======
 
